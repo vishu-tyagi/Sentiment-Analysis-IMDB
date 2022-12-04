@@ -1,0 +1,24 @@
+name: sentiment-analysis
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pandas
+  - scipy
+  - bs4
+  - requests
+  - scikit-learn
+  - nltk
+  # Interactive
+  - jupyter
+  - matplotlib
+  - seaborn
+  # Testing
+  - pycodestyle
+  - pytest
+  - pytest-cov
+  - pytest-pycodestyle
+  # Pip
+  - pip
+  - pip:
+    - xgboost==1.6.2
