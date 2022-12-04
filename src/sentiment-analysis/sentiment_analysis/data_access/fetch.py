@@ -8,6 +8,7 @@ from sentiment_analysis.config import SentimentAnalysisConfig
 from sentiment_analysis.data_access.helpers import (
     download_data, unzip_tar, collect_files
 )
+from sentiment_analysis.utils import timing
 from sentiment_analysis.utils.constants import (
     DATA_DIR,
     MODEL_DIR,
@@ -50,6 +51,7 @@ class DataClass():
         logger.info(f"Created model directory {self.model_path}")
         logger.info(f"Created reports directory {self.reports_path}")
 
+    @timing
     def fetch(self):
         file_name = self.data_url.split('/')[-1]
         file_path = Path(os.path.join(self.data_path, file_name))
@@ -61,6 +63,7 @@ class DataClass():
             [os.path.join(TAR_FOLDER, f) for f in TAR_RELEVANT_FOLDERS]
         unzip_tar(file_path, relevant_folders, self.data_path)
 
+    @timing
     def build(self):
         dirs = [os.path.join(self.data_path, TAR_FOLDER, f) for f in TAR_RELEVANT_FOLDERS]
         files = collect_files(dirs=dirs, file_types=TAR_RELEVANT_FILES_PATTERN)

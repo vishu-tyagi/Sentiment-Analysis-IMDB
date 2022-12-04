@@ -1,7 +1,4 @@
-import os
-from pathlib import Path
-
-import numpy as np
+from typing import (List, Optional)
 
 
 class SentimentAnalysisConfig():
@@ -10,3 +7,22 @@ class SentimentAnalysisConfig():
     CURRENT_PATH = None
 
     SENTIMENT_MAP = {"pos": 1, "neg": 0}
+
+    STOPWORDS_TO_ADD: Optional[List[str]] = []
+    STOPWORDS_TO_DELETE: Optional[List[str]] = []
+
+    TFIDF_ANALYZERS = {"char", "word"}
+    TFIDF_CHAR_PARAMETERS = {
+        "analyzer": "char",
+        "ngram_range": (3, 3),
+        "max_features": 4000,
+        "min_df": 0.001,
+        "max_df": 0.75
+    }
+    TFIDF_WORD_PARAMETERS = {
+        "analyzer": "word",
+        "ngram_range": (2, 2),
+        "max_features": 1000,
+        "min_df": 0.001,
+        "max_df": .75
+    }
