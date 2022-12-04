@@ -11,7 +11,7 @@ class SentimentAnalysisConfig():
     STOPWORDS_TO_ADD: Optional[List[str]] = []
     STOPWORDS_TO_DELETE: Optional[List[str]] = []
 
-    TFIDF_ANALYZERS = {"char", "word"}
+    TFIDF_ANALYZERS = {"word"}
     TFIDF_CHAR_PARAMETERS = {
         "analyzer": "char",
         "ngram_range": (3, 3),
@@ -21,8 +21,8 @@ class SentimentAnalysisConfig():
     }
     TFIDF_WORD_PARAMETERS = {
         "analyzer": "word",
-        "ngram_range": (2, 2),
-        "max_features": 1000,
+        "ngram_range": (2, 3),
+        "max_features": 5000,
         "min_df": 0.001,
         "max_df": .75
     }
