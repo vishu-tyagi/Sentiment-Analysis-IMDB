@@ -6,9 +6,11 @@ dependencies:
   - pandas
   - scipy
   - bs4
+  - requests
   - scikit-learn
+  - nltk
   # Interactive
-  - ipykernel
+  - jupyter
   - matplotlib
   - seaborn
   # Testing
