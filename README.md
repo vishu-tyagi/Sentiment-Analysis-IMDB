@@ -5,7 +5,7 @@
 
 ### Move into top-level directory
 ```
-cd IMDB-Sentiment-Analysis
+cd Sentiment-Analysis-IMDB
 ```
 
 ### Install environment
@@ -27,6 +27,11 @@ Including the optional -e flag will install sentiment-analysis in "editable" mod
 ### Fetch data
 ```
 python -m sentiment_analysis fetch
+```
+
+### Download NLTK data
+```
+python -m nltk.downloader all
 ```
 
 ### Run jupyter server
