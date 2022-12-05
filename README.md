@@ -1,5 +1,8 @@
 # Sentiment-Analysis-IMDB
 
+<p align="center">
+  <img src="/notebooks/images/results.png" width="300" height="200" />
+</p>
 
 ## Setup Instructions
 
