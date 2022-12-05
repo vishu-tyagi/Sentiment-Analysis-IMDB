@@ -27,7 +27,7 @@ class SentimentAnalysisConfig():
         "max_df": 0.75
     }
 
-    XGB_NUM_BOOST_ROUND = 1000
+    XGB_NUM_BOOST_ROUND = 3000
     XGB_EARLY_STOPPING_ROUNDS = 150
     XGB_PARAMETERS = {
         "booster": "gbtree",

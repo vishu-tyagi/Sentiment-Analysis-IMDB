@@ -19,6 +19,7 @@ DEVELOP = "development"
 TRAIN = "train"
 VALID = "validation"
 TEST = "test"
+PREDICTION = "prediction"
 
 ACCURACY = "Accuracy"
 PRECISION = "Precision"
