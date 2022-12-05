@@ -6,7 +6,7 @@
 
 ## Problem Statement
 
-This is a binary text classification problem where we have to predict the sentiment of movie reviews as either positive or negative. The classes are balanced.
+This is a binary text classification problem where we predict the sentiment of movie reviews as either positive or negative. The classes are balanced.
 
 ## XGBoost
 
@@ -14,7 +14,7 @@ It is trained on features aggregated from character-TFIDF and word-TFIDF. Charac
 
 The XGBoost model minimizes a custom binary logistic objective and uses accuracy score as the evaluation metric.
 
-The training phase includes validating the model to find the optimal number of boosting rounds with early stopping and sets the classification threshold, which maximizes the accuracy score on a validation set.
+The training phase includes validating the model to find the optimal number of boosting rounds with early stopping and sets the classification threshold to maximize the accuracy score on a validation set.
 
 ## BERT, RoBERTa
 
