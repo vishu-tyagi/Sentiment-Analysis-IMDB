@@ -66,7 +66,7 @@ class CustomEvaluation():
         for th in self.thresholds:
             pred = np.where(y_pred_probab > th, 1, 0)
             score = self.compute_accuracy(y_true, pred)
-            if score > max_score:
+            if score > max_score or (score == max_score and abs(optimal_threshold-0.5) > abs(th-0.5)):
                 max_score = score
                 optimal_threshold = th
         return optimal_threshold
