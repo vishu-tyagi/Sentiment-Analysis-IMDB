@@ -11,7 +11,7 @@ from nltk.stem import WordNetLemmatizer
 from sklearn.model_selection import train_test_split
 
 from sentiment_analysis.config import SentimentAnalysisConfig
-from sentiment_analysis.features.helpers import tfidf_init, stopwords_init
+from sentiment_analysis.features.helpers import (tfidf_init, stopwords_init)
 from sentiment_analysis.utils import timing
 from sentiment_analysis.utils.constants import (
     DATA_DIR,
