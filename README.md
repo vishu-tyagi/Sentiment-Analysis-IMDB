@@ -14,7 +14,7 @@
 Elbow method verifies the number of clusters should be 2
 
 <p align="center">
-  <img src="/notebooks/images/elbow_method.png" width="400" height="300" />
+  <img src="/notebooks/images/elbow_method.png" width="600" height="300" />
 </p>
 
 
