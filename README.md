@@ -4,6 +4,12 @@
   <img src="/notebooks/images/results.png" width="400" height="150" />
 </p>
 
+#### RoBERTa Embeddings Evaluation via k-Means Clustering
+
+<p align="center">
+  <img src="/notebooks/images/clustering.png" width="400" height="150" />
+</p>
+
 ## Problem Statement
 
 This is a binary text classification problem where we predict the sentiment of movie reviews as either positive or negative. The classes are balanced.
