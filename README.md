@@ -1,13 +1,13 @@
 # Sentiment-Analysis-IMDB
 
 <p align="center">
-  <img src="/notebooks/images/results.png" width="800" height="150" />
+  <img src="/notebooks/images/results.png" width="400" height="150" />
 </p>
 
 #### RoBERTa Embeddings Evaluation via k-Means Clustering
 
 <p align="center">
-  <img src="/notebooks/images/clustering.png" width="400" height="400" />
+  <img src="/notebooks/images/clustering.png" width="800" height="400" />
 </p>
 
 ## Problem Statement
