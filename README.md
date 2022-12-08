@@ -22,7 +22,7 @@ Elbow method verifies the number of clusters should be 2
 
 This is a binary text classification problem where we predict the sentiment of movie reviews as either positive or negative. The classes are balanced.
 
-## XGBoost
+#### XGBoost
 
 It is trained on features aggregated from character-TFIDF and word-TFIDF. Character-TFIDF has been used to account for misspellings.
 
@@ -30,11 +30,11 @@ The XGBoost model minimizes a custom binary logistic objective and uses accuracy
 
 The training phase includes validating the model to find the optimal number of boosting rounds with early stopping and sets the classification threshold to maximize the accuracy score on a validation set.
 
-## BERT, RoBERTa
+#### BERT, RoBERTa
 
 These are pre-trained large language models that are fine-tuned by placing a classifier head on top.
 
-## Ensemble
+#### Ensemble
 
 This is an ensemble of XGBoost, BERT and RoBERTa based on majority voting.
 
