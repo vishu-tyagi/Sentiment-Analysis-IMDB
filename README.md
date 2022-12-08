@@ -11,6 +11,11 @@
   <img src="/notebooks/images/clustering.png" width="800" height="400" />
 </p>
 
+<p align="center">
+  <img src="/notebooks/images/elbow_method.png" width="800" height="400" />
+</p>
+
+
 ## Problem Statement
 
 This is a binary text classification problem where we predict the sentiment of movie reviews as either positive or negative. The classes are balanced.
