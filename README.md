@@ -8,7 +8,7 @@
 #### Evaluating Fine Tuned RoBERTa's Embeddings via k-Means
 
 <p align="center">
-  <img src="/notebooks/images/clustering.png" width="800" height="400" />
+  <img src="/notebooks/images/clustering.png" width="800" height="500" />
 </p>
 
 Elbow method verifies the number of clusters should be 2
