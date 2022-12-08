@@ -1,5 +1,6 @@
 # Sentiment-Analysis-IMDB
 
+#### Benchmark Results
 <p align="center">
   <img src="/notebooks/images/results.png" width="400" height="150" />
 </p>
