@@ -5,7 +5,7 @@
   <img src="/notebooks/images/results.png" width="400" height="150" />
 </p>
 
-#### Evaluating Fine Tuned RoBERTa's Embeddings via k-Means Clustering
+#### Evaluating Fine Tuned RoBERTa's Embeddings via k-Means
 
 <p align="center">
   <img src="/notebooks/images/clustering.png" width="800" height="400" />
