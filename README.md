@@ -5,11 +5,13 @@
   <img src="/notebooks/images/results.png" width="400" height="150" />
 </p>
 
-#### RoBERTa Embeddings Evaluation via k-Means Clustering
+#### Evaluating Fine Tuned RoBERTa's Embeddings via k-Means Clustering
 
 <p align="center">
   <img src="/notebooks/images/clustering.png" width="800" height="400" />
 </p>
+
+#### Elbow Method Verifies Number of Clusters Should be 2
 
 <p align="center">
   <img src="/notebooks/images/elbow_method.png" width="800" height="400" />
