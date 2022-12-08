@@ -2,6 +2,7 @@ name: sentiment-analysis
 channels:
   - conda-forge
   - pytorch
+  - plotly
 dependencies:
   - python==3.9.15
   - pandas==1.5.2
@@ -15,11 +16,11 @@ dependencies:
   - torchaudio
   - cudatoolkit
   - transformers
-  # Interactive
+  - hdbscan
+  - plotly==5.10.0
   - jupyter==1.0.0
   - matplotlib==3.6.2
   - seaborn==0.12.1
-  # Testing
   - pycodestyle==2.10.0
   - pytest==7.2.0
   - pytest-cov==4.0.0
